@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+:root {
+  --mainBlue: #007bff;
+  --mainGrey: #f0f0f0;
+  --mainDarkBlue: #00006a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IranianSans";
+  font-weight: 600;
+}
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+/* Header */
+
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: var(--mainGrey);
+  padding: 20px 0;
+}
+
+.header-title a:hover {
+  text-decoration: none;
+}
+
+.header-title span {
+  color: orange;
+}
+
+/* <!-- Name and address --> */
+.name-address {
+  color: var(--mainDarkBlue);
+}
+
+.name-profIMG .user-img {
+  color: gray;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  border: solid 3px grey;
+  border-radius: 50%;
+  padding: 1.2rem;
+}
+
+.name-profIMG .likes {
+  color: red;
+}
+
+/* <!-- Map & SocialMedia --> */
+
+.map-socialmedia {
+  background-color: var(--mainDarkBlue);
+  padding: 5px;
+}
+
+.socialMedia p {
+  font-weight: 100;
+  color: white;
+  margin: 5px 0 0;
+}
+
+.map-socialmedia .map {
+  background-color: white;
+}
