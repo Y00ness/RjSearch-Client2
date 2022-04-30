@@ -14,6 +14,7 @@
 body {
   font-family: "IranianSans";
   font-weight: 600;
+  background-color: var(--mainGrey);
 }
 .rtl {
   direction: rtl;
@@ -28,7 +29,7 @@ body {
 .header-title {
   font-size: 2.5rem;
   font-weight: bold;
-  background-color: var(--mainGrey);
+  background-color: var(--mainDarkBlue);
   padding: 20px 0;
 }
 
@@ -62,11 +63,22 @@ body {
   color: red;
 }
 
+.likes-comments {
+  border-bottom: solid 2px gray;
+}
+/* <!-- Address and Phone number --> */
+
+.address-PHNum {
+  height: 150px;
+}
+
 /* <!-- Map & SocialMedia --> */
 
 .map-socialmedia {
   background-color: var(--mainDarkBlue);
   padding: 5px;
+  height: calc(100% - 150px);
+  margin-bottom: 50px;
 }
 
 .socialMedia p {
@@ -77,4 +89,43 @@ body {
 
 .map-socialmedia .map {
   background-color: white;
+}
+
+.comment-num {
+  height: 50px;
+}
+
+.comment-num .num {
+  background-color: var(--mainDarkBlue);
+  width: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  padding: 2px 0px;
+}
+
+/* <!-- Description and Comments --> */
+
+.description-comments {
+  height: 400px;
+  column-gap: 10px;
+}
+
+.description {
+  background-color: white;
+  text-align: justify;
+  padding: 2.5rem 2rem;
+}
+
+.comments-box {
+  background-color: white;
+  padding: 2.5rem 2rem;
+}
+
+.users-comment {
+  height: calc((100%) / 4);
+}
+
+.users-comment .stars {
+  color: gold;
 }
