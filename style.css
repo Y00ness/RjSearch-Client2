@@ -41,6 +41,18 @@ body {
   color: orange;
 }
 
+.swiper {
+  width: 100vw;
+  height: 80vh;
+}
+
+.swiper-slide {
+  width: 100%;
+}
+
+.swiper-slide img {
+  object-fit: contain;
+}
 /* <!-- Name and address --> */
 .name-address {
   color: var(--mainDarkBlue);
